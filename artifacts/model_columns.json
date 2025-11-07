@@ -1,0 +1,20 @@
+{
+  "numeric_cols": [
+    "distance",
+    "fuel_consumption",
+    "CO2_emissions"
+  ],
+  "categorical_cols": [
+    "ship_type"
+  ],
+  "cat_values": {
+    "ship_type": [
+      "Fishing Trawler",
+      "Oil Service Boat",
+      "Surfer Boat",
+      "Tanker Ship"
+    ]
+  },
+  "target": "engine_efficiency",
+  "model_name": "Ridge"
+}
